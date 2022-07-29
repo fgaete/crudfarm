@@ -6,4 +6,4 @@ def consoleEntity(item) -> dict:
         "year": item["year"]
     }
 def consolesEntity(entity) -> list:
-    [consoleEntity(item) for item in entity]
+    return [consoleEntity(item) for item in entity]
